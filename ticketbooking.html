@@ -1,0 +1,144 @@
+<!Doctype html>
+<html>
+    <head>
+	    <title>Amazon-Campus Recruitment Registration</title>
+		<link rel="icon" href="images/amazon.png">
+		<style>
+		     #main{ 
+			   width:300px;
+			   margin:auto;
+			   border-radius:20px;
+			   padding:25px;
+			   box-shadow:0 0 10px red;
+			   color:black;
+			   background:cyan;
+			}
+			#main:hover{
+			    box-shadow:0 0 25px blue;
+				background:teal;
+			}
+			body{
+			 background-image:url(images/hiring2.jpg);
+		     background-repeat:no-repeat;
+		     background-position:center center;
+			 background-size:cover;
+			 background-attachment:fixed;
+			 
+		 }
+		</style>
+	</head>
+	
+	<body>
+	   
+		
+		<div id="main">
+		     
+		<h2 align="center"> Amazon Campus Recruitment | 2024 | Associate Software Engineer  </h2>
+		
+			<img src="images/amazon.png" width="50px" height="50px" align="center" style="padding-right:40px;" ><br>
+		
+		    <h3 align="center">Student Registration Form </h3>
+			<form id="frm2" action="register.html">
+			<div>
+			    <div>
+				    <label for="fna"> First Name </label> <span>*</span>
+				</div>
+				<div>
+				    <input type="text" id="fna" name="fna" required autofocus>
+				</div>
+				<br>
+				<div>
+				    <label for="lna"> Last Name </label> <span>*</span>
+				</div>
+				<div>
+				    <input type="text" id="lna" name="lna" required>
+				</div>
+				<br>
+				<div>
+				    <label for="em"> Email </label> <span>*</span>
+				</div>
+				<div>
+				    <input type="email" id="em" name="em" required >
+				</div>
+				<br>
+				<div>
+				    <label for="cn"> Contact Number </label> <span>*</span>
+				</div>
+				<div>
+				    <input type="text" id="cn" name="cn" maxlength="10"required >
+				</div>
+				<br>
+			<div>
+		        <label for="dob" >Date of Birth</label> <span>*</span><br>
+		    </div>
+		    <div>
+		        <input type="date" id="dob" name="dob"  min="1994-01-01" max="2024-07-05" required >
+		    </div>
+			<br>
+			<div>
+		        <label>Gender:</label> <br>
+		    </div>
+		    <div>
+		        <input type="radio" id="g1" name="gen" value="m" checked >
+				<label> Male </label> &nbsp;
+				<input type="radio" id="g2" name="gen" value="f" >
+				<label> Female </label> &nbsp;
+				<input type="radio" id="g3" name="gen" value="o" >
+				<label> Others </label>
+				
+		    </div>
+			<br>
+			<div>
+			    <label for="un"> University Name </label>
+				<BR>
+				<select id="un" name="un">
+				    <option value="NUZ">RGUKT-NUZ</option>
+					<option value="RKV">RGUKT-RKV</option>
+					<option value="SKLM">RGUKT-SKLM</option>
+					<option value="ONG">RGUKT-ONG</option>
+					<option value="BASAR">RGUKT-BASAR</option>
+					<option value="MYL">LBRCE-MYL</option>
+					<option value="VZA">NRI-VZA</option>
+					<option value="KVZA">KLU-VZA</option>
+					<option value="KKN">KIET-KKN</option>
+					<option value="VSKP">GITAMS-VSKP</option>
+				</select>
+			</div>
+			<br>
+			<div> 
+			    <label for="yop"> Year of Passing</label><br>
+				<select id="yop" name="yop">
+				<option value="f">2025</option>
+				<option value="fr">2024</option>
+				<option value="fre">2023</option>
+				<option value="fres">2022</option>
+				<option value="fresh">2021</option>
+				<option value="fresher">2020</option>
+			    </select>
+			</div>
+			<br>
+			<div>
+			    <label for="cgpa"> B.Tech CGPA (out of 10) Ex: 9.34 <label><br>
+				<input type="text" id="cgpa" name="cgpa" required>
+			</div>
+			<br>
+			<div>
+			    <label for="upload">Upload Resume </label><br>
+				<input type="file" id="upload" name="upload" accept=".pdf,.docx"required >
+			</div>
+			<div align="center">
+			    <input type="checkbox" id="tc" value="tc" value="true" required>
+				<label>I Accepted all Terms & Conditions </label>
+			</div>
+			<br>
+			<div align="center">
+			    <!--input type="submit" name="sb" value="Register Now"-->
+				<button type="submit" name="sb" >Register Now </button>
+			</div>
+			</form>
+			 
+		</div>
+			
+
+	</body>
+</html>

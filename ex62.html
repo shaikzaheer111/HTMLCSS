@@ -1,0 +1,56 @@
+<!-- Child selector/ desend selector
+
+  ==> it purely applies the style whenever the tag is playing child role.
+  ==> it will consider child , grand child .....
+  ==> except parent tag ,for all childs styles will be applied .
+  ==>p-tag ==> identification , c-tag repetitions available.
+  ==>Additional mapping not necessary
+  ==> parent-tag space child-tag{
+            prop:value;
+			.....
+      }
+
+==> Synatax :  gp-tag p-tag c-tag{ 
+                  prop:value;
+				  .........
+               }
+-->
+<!Doctype html>
+<html>
+     <head>
+	     <title>id selector </title>
+		 <meta charset="UTF-8">
+		 <style>
+		     div a{
+			     color:red;
+				 text-decoration:none;
+			 }
+			 ul li a{  
+			     color:green;
+			 }
+		 </style>
+	 </head>
+	 <body>
+	     <h2> Demo on child selectors </h2>
+		 <a href="">Go to ex1 </a><br>
+		 <a href="">Go to ex2 </a>
+		 <div>
+		     <a href="">Go to ex11 </a>
+		     <a href="">Go to ex12 </a>
+			 <p>
+			     <a href="">Go to ex21 </a>
+		         <a href="">Go to ex22 </a>
+			 </p>
+		 </div>
+		 
+		 <ul>
+		     <a href="">Google </a>
+			 <li> <a href="">Facebook</a></li>
+			 <li> <a href=""> Youtube </a> </li>
+		 </ul>
+		 
+	 </body>
+</html>
+		
+
+

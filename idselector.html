@@ -1,0 +1,45 @@
+<!-- ID - Selector :  tag selector opposite id selector. 
+
+for every instance separate style.every repetition they have their own style.
+each copy of the tag should be pronounced as instances(repetition of tag).
+
+id selector  is an alternative for inline css.
+
+Synatax : #id-name {
+              prop:value;
+			  ..........
+          }
+mapping : mapping id selctors to tags.( case-sensitive and case-restrictions) only selectors case sensitive
+          <tag id = "id-name">
+-->
+<!Doctype html>
+<html>
+     <head>
+	     <title>id selector </title>
+		 <meta charset="UTF-8">
+		 <style>
+		     #id1{
+			     color:red;
+			 }
+			 #id2{
+			     color:blue;
+			 }
+			 #id3{
+			     color:green;
+			 }
+		 </style>
+	 </head>
+	 <body>
+	     <h1 id="id1"> Head </h1>
+		 <h2 id="id2"> id selector</h2>
+		 <h2 id="id3"> orange </h2>
+		 
+		 <h3 id="id1">Grape </h3> <!--Wrong tag , (style,color applied)same id if we apply more than one tag 
+          it is considered to be bad coding		 -->
+		 
+		 <h1 id="id2 id3">Banana <h1>
+	 </body>
+</html>
+		
+
+

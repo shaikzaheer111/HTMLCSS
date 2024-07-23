@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+	    <title> 
+		Ex14
+		</title>
+	</head>
+	<body>
+	    <h3> Demo on email , url , date , time , week , month & color fields </h3>
+		<form action="test">
+		    <label for="em"> Enter email id </label>
+			<input type="email" id="em" name="em"/>
+			<br>
+			<label for="url"> Enter url </label>
+			<input type="url" id="url" name="url">
+			<br>
+			<label for="d"> select data </label>
+			<input type="date" id="d" name="d" min="2001-01-01" max="2024-07-03">
+			<br>
+			<label for="t"> select time </label>
+			<input type="time" id="t" name="t">
+			<br>
+			<label for="w"> select week </label>
+			<input type="week" id="w" name="w">
+			<br>
+			<label for="m"> select month </label>
+			<input type="month" id="m" name="m">
+			<br>
+			<label for="c"> select color </label>
+			<input type="color" id="c" name="c" onchange="document.body.style.background=c.value" >
+			<br> 	
+			<button type="submit">submit</button>
+			
+		
+		    <!--input type="submit"-->
+		</form>
+	</body>

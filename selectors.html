@@ -1,0 +1,59 @@
+<!-- CSS selectors 
+==> selector is nothing but a style rule
+==> selectors are used to define styles for  html elements/tags.
+means we are customizing/modifying the existing styles of elements/tags.
+
+all the tags comes with some default styles. if we are not interested then we can modify using selectors.
+
+==>selector should be defined as an internal or external scope
+
+syntax : selector{
+            prop : val;
+			prop : val;
+			......
+         }
+		 
+		Types of selectors (top 10 selectors) :
+		
+		1) Universal selector -- *
+		2) id  -- #
+		3) class --.
+		4) tag -- no symbol
+		5) child -- (space)
+		6) direct child -- >
+		7) attribute -- []
+		8) group -- ,
+		9) pseudo classes -- :
+		10) pseudo elements -- ::
+		
+		
+	universal selector
+	-------------------
+	
+	if we want to define same styles to all html elements/tags then we can use universal selector, (settings related tags, link tags, meta tags no changs
+	preferrable for paddings, margins
+-->
+<!Doctype html>
+<html>
+    <head>
+	    <title> Selectors </title>
+	    <meta charset="UTF-8">
+		<style>
+		    *{
+			  border:2px solid red;
+			  color:blue;
+			}
+		</style>
+	</head>
+	<body>
+	     <h3> Demo on universal selectors </h3>
+		 <h1> Apple </h1>
+		 <span> mango </span>
+		 <p> Oranges </p>
+		 <div> Grapes  </div>
+		 <ul>
+		 <li> html</li> <li>java</li> <li>css</li>
+		 </ul>
+	    
+	</body>
+</html>
